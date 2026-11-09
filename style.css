@@ -1,0 +1,153 @@
+
+
+/* Main website background */
+body {
+    background-color: #090D0B;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #39E079;
+    font-size: 36px;
+}
+
+/* Introduction box */
+.intro-box {
+    background-color: #151C18;
+    padding: 25px;
+    border: 1px solid #39E079;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+/* WhatsApp button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Profile photo */
+.profile-photo {
+    display: block;
+    width: 70px;
+    height: 90px;
+    object-fit: cover;
+    border: 3px solid #39E079;
+    border-radius: 15px;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 15px #39E079;
+    animation: glow 2s infinite alternate;
+}
+
+/* Animated green glow */
+@keyframes glow {
+    from {
+        box-shadow: 0 0 8px #39E079;
+    }
+    to {
+        box-shadow: 0 0 25px #39E079;
+    }
+}
+/* Explore section */
+.explore-section {
+    margin-top: 30px;
+}
+
+/* Cards layout */
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+/* Individual cards */
+.card {
+    display: block;
+    background-color: #151C18;
+    border: 1px solid #39E079;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Card heading */
+.card h3 {
+    color: #39E079;
+}
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #39E079;
+}
+/* Education cards */
+.education-card {
+    background-color: #151C18;
+    border: 1px solid #39E079;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    color: white;
+}
+.status-badge {
+    display: inline-block;
+    background-color: #39E079;
+    color: #090D0B;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Qualifications page layout */
+.page-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Section headings */
+.page-container h1,
+.page-container h2 {
+    color: #39E079;
+}
+.music-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #151C18;
+    border: 1px solid #39E079;
+    border-radius: 12px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.music-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.music-card h2 {
+    color: #39E079;
+}
